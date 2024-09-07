@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+  }
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(146, 139, 139);
+}
+nav>a{
+
+    height: 30px;
+    width: 80px;
+    background-color: rgba(76, 76, 79, 0.208);
+    border: 1px solid rgb(231, 231, 238);
+    display: flex;  /* Make the a element a flex container */
+  /* Center the text vertically within the a element */
+    justify-content: center;  /* Center the text horizontally within the a element */
+    line-height: 30px;  /* Set the line height to match the height of the a element */
+    padding: 0;  /* Remove any padding that might be causing issues */
+    font-size: 14px;
+    text-decoration: None;
+    color: black;
+    border-radius:5px;
+}
+.body{
+    height: 100vh;
+    width:100vw;
+    background-color: #797978;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius:5px;
+  }
+#height,#weight{
+    
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+input{
+    border-radius:5px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 15px;
+}
+#results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(19, 18, 18);
+  }
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+    
+}
